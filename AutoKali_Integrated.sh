@@ -16,7 +16,7 @@ set -euo pipefail
 # =========================================================
 
 INSTALL_DIR="/opt"
-SHARED_DIR="/media/sf_X_DRIVE"
+#SHARED_DIR="/media/sf_X_DRIVE"
 DEFAULT_HOSTNAME="kali-lab"
 LOG_FILE="/var/log/autokali.log"
 
@@ -30,7 +30,7 @@ APT_PACKAGES=(
   eyewitness
   python3-pip
   python3-pycryptodome
-  python3-bloodhound
+  #python3-bloodhound
   python3-art
   python3-impacket
   pipx
@@ -55,8 +55,8 @@ declare -A GIT_TOOLS=(
 )
 
 declare -A SHARED_TOOLS=(
-  ["Inveigh"]="https://github.com/Kevin-Robertson/Inveigh.git"
-  ["SharpSCCM"]="https://github.com/Mayyhem/SharpSCCM.git"
+#  ["Inveigh"]="https://github.com/Kevin-Robertson/Inveigh.git"
+ # ["SharpSCCM"]="https://github.com/Mayyhem/SharpSCCM.git"
 )
 
 init_log() {
