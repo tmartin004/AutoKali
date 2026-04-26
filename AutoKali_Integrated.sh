@@ -16,7 +16,7 @@ set -euo pipefail
 # =========================================================
 
 INSTALL_DIR="/opt"
-#SHARED_DIR="/media/sf_X_DRIVE"
+SHARED_DIR="/media/sf_X_DRIVE"
 DEFAULT_HOSTNAME="kali-lab"
 LOG_FILE="/var/log/autokali.log"
 
