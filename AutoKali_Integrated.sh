@@ -36,6 +36,7 @@ APT_PACKAGES=(
   pipx
   git
   virtualenv
+  mitm6
 )
 
 declare -A GIT_TOOLS=(
